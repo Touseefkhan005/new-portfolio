@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touseef Khan - AI & Data Science Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #121212; /* Dark Mode */
+            color: white;
+            text-align: center;
+        }
+        .header {
+            background: url('static/img/background.jpg') no-repeat center center/cover;
+            padding: 50px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            position: relative;
+        }
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6);
+            z-index: 1;
+        }
+        .header-content {
+            position: relative;
+            z-index: 2;
+        }
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid white;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 36px;
+            margin: 0;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
+        }
+        .header p {
+            font-size: 18px;
+            margin-top: 10px;
+        }
+        .section {
+            padding: 50px 20px;
+            background-color: #1e1e1e;
+            margin: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+        }
+        h2 {
+            font-size: 28px;
+            color: #00bcd4;
+        }
+        .skills ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills li {
+            display: inline-block;
+            background: #00bcd4;
+            color: black;
+            padding: 10px 20px;
+            margin: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        .projects, .certifications, .testimonials {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .project, .certification, .testimonial {
+            width: 300px;
+            background: #222;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+            text-align: center;
+        }
+        .project img, .certification img {
+            width: 100%;
+            border-radius: 5px;
+        }
+        .project a {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #00bcd4;
+            color: black;
+            border-radius: 5px;
+            text-decoration: none;
+            margin-top: 10px;
+        }
+        .project a:hover {
+            background: #008ba3;
+        }
+        .contact a {
+            display: block;
+            margin-top: 10px;
+            color: #00bcd4;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="overlay"></div>
+        <div class="header-content">
+            <img src="static/img/profile.jpg" alt="Touseef Khan" class="profile-pic">
+            <h1>Welcome to My AI & Data Science Portfolio</h1>
+            <p>Hi there! I'm <strong>Touseef Khan</strong>, an AI and Data Science enthusiast passionate about transforming data into intelligent solutions.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>About Me</h2>
+        <p>I am an AI Developer and Data Scientist with expertise in Machine Learning, Deep Learning, and Data Analytics. I specialize in building intelligent systems, optimizing models, and extracting insights from data. My work focuses on creating AI-driven solutions to solve real-world problems.</p>
+    </div>
+
+    <div class="section skills">
+        <h2>Skills & Technologies</h2>
+        <ul>
+            <li>Machine Learning</li>
+            <li>Deep Learning</li>
+            <li>Computer Vision</li>
+            <li>NLP</li>
+            <li>Data Analytics</li>
+            <li>Python & TensorFlow</li>
+            <li>PyTorch</li>
+            <li>Scikit-Learn</li>
+            <li>SQL & Databases</li>
+            <li>Data Visualization</li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>Emotion Detection</h3>
+                <p>Using CNNs to classify facial expressions.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>Football Tracking</h3>
+                <p>Real-time player tracking using AI.</p>
+                <a href="#">View Project</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Experience & Certifications</h2>
+        <h3>Certifications</h3>
+        <div class="certifications">
+            <div class="certification">
+                <img src="cert1.jpg" alt="Certification 1">
+                <h4>Deep Learning Specialization</h4>
+                <p>Issued by Coursera.</p>
+            </div>
+            <div class="certification">
+                <img src="cert2.jpg" alt="Certification 2">
+                <h4>Machine Learning</h4>
+                <p>Issued by Stanford University.</p>
+            </div>
+        </div>
+    </div>
+    <div class="section contact">
+        <h2>Contact</h2>
+        <p>Reach out to me:</p>
+        <a href="mailto:touseef@example.com">Email: touseef@example.com</a>
+        <a href="https://www.linkedin.com/in/touseefkhan">LinkedIn</a>
+        <a href="https://github.com/touseefkhan">GitHub</a>
+    </div>
+</body>
+</html>
